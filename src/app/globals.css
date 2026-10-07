@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+:root {
+  /* Using dark mode by default for the entire site */
+  --background: #071018;
+  --surface: #0D1722;
+  --surface-hover: #132233;
+  
+  --foreground: #F5F7FA;
+  --foreground-muted: #9BA8B6;
+  
+  --accent: #36B9D6;
+  --accent-muted: #247C90;
+  --accent-light: #5CE0FD;
+  
+  --science-orange: #F59E0B; /* amber-500 */
+  --science-orange-muted: #B45309; /* amber-700 */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+  
+  --color-accent: var(--accent);
+  --color-accent-muted: var(--accent-muted);
+  --color-accent-light: var(--accent-light);
+  --color-science: var(--science-orange);
+  
+  --font-sans: var(--font-inter), var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-ibm-plex-mono), var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle grid background for some technical sections */
+.bg-tech-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(54, 185, 214, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(54, 185, 214, 0.05) 1px, transparent 1px);
+}
+
+/* Base link styles */
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Typography styles for technical documents */
+.tech-label {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
