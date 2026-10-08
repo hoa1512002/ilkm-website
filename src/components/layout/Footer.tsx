@@ -27,7 +27,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2 text-sm text-[var(--foreground-muted)]">
               <li><Link href="/research" className="hover:text-[var(--accent)]">Research</Link></li>
               <li><Link href="/insights" className="hover:text-[var(--accent)]">Insights</Link></li>
-              <li><a href="mailto:proadmin@yayasanlenterakeadilanmasyarakat.com" className="hover:text-[var(--accent)]">Email ILKM</a></li>
+              <li><a href="mailto:ILKM@tech2grow.io.vn" className="hover:text-[var(--accent)]">Email ILKM</a></li>
             </ul>
           </div>
         </div>
