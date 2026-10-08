@@ -22,7 +22,7 @@ export default function ContactPage() {
           </a>
           
           <a 
-            href="mailto:proadmin@yayasanlenterakeadilanmasyarakat.com?subject=Engineering%20Inquiry%20%E2%80%94%20ILKM"
+            href="mailto:ILKM@tech2grow.io.vn?subject=Engineering%20Inquiry%20%E2%80%94%20ILKM"
             className="inline-flex items-center justify-center rounded-md bg-[var(--accent)] px-8 py-4 text-lg font-medium text-[var(--background)] transition-colors hover:bg-[var(--accent-light)] w-full md:w-auto"
           >
             Email ILKM
