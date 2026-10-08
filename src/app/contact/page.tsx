@@ -17,8 +17,8 @@ export default function ContactPage() {
           <Mail className="h-12 w-12 text-[var(--accent)] mx-auto mb-6" />
           
           <h2 className="text-2xl font-bold text-[var(--foreground)] mb-2">Get in Touch</h2>
-          <a href="mailto:proadmin@yayasanlenterakeadilanmasyarakat.com?subject=Engineering%20Inquiry%20%E2%80%94%20ILKM" className="text-lg font-mono text-[var(--foreground-muted)] hover:text-[var(--accent)] transition-colors block mb-8">
-            proadmin@yayasanlenterakeadilanmasyarakat.com
+          <a href="mailto:ILKM@tech2grow.io.vn?subject=Engineering%20Inquiry%20%E2%80%94%20ILKM" className="text-lg font-mono text-[var(--foreground-muted)] hover:text-[var(--accent)] transition-colors block mb-8">
+            ILKM@tech2grow.io.vn
           </a>
           
           <a 
